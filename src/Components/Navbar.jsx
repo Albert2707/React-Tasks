@@ -37,14 +37,14 @@ setShow(show === "hidden"?"md:hidden":"hidden");
 </div>
 
 
-
+{/* Desktop menu */}
       <ul className="hidden md:flex space-x-5 items-center text-lg
       ">
         <li className="hover:text-blue-400 transition">
-          <Link className="border-[1px] border-indigo-500  py-3 px-8 text-center hover:bg-[#3363cb]/20 font-semibold hover:border-transparent  hover:text-[#3a6ccd] rounded-full  text-white bg-[#3363cb]" to="/">Home</Link>
+          <Link className="border-[1px] border-indigo-500  py-3 px-8 text-center hover:bg-[#3363cb]/20 font-semibold hover:border-transparent  hover:text-[#3a6ccd] rounded-full  text-white bg-[#3363cb] transition duration-300" to="/">Home</Link>
         </li>
         <li className="hover:text-blue-400 transition">
-          <Link className="border-[1px] border-indigo-500  py-3 px-5 text-center hover:bg-[#3363cb]/20 font-semibold hover:border-transparent  hover:text-[#3a6ccd] rounded-full text-white bg-[#3363cb]" to="/new">Create Task</Link>
+          <Link className="border-[1px] border-indigo-500  py-3 px-5 text-center hover:bg-[#3363cb]/20 font-semibold hover:border-transparent  hover:text-[#3a6ccd] rounded-full text-white bg-[#3363cb] transition duration-300" to="/new">Create Task</Link>
         </li>
       </ul>
     </nav>
