@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+ 
     extend: {
+      screens:{
+        'xs':'335px'
+            },
 
       animation:{
         shake:'shake 0.5s 1',
