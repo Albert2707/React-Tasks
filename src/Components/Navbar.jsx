@@ -11,7 +11,7 @@ setShow(show === "hidden"?"md:hidden":"hidden");
 
 <div className="flex items-center space-x-1">
 <img src="https://i.ibb.co/10Q0r61/react-logo-24.png" alt="" />
-<h1 className="text-2xl">React MySQL</h1>
+<h1 className=" text-xl font-medium xs:font-normal xs:text-2xl">React MySQL</h1>
 
 </div>
 
