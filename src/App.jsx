@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import TaskPage from "./Pages/TaskPage";
 import TaskForm from "./Pages/TaskForm";
-import Not404 from "./pages/Not404";
+import Not404 from "./Pages/Not404";
 import Navbar from "./components/Navbar";
 import {TaskContextProvider} from "./context/TaskContext";
 function App() {
