@@ -31,9 +31,9 @@ function TaskCard({ task }) {
 
       </button> </div>   
 
-<div className="my-16 flex flex-col gap-4">
+<div className="my-16 flex flex-col gap-4 ">
 <h1 className="text-center">{task.title}</h1>
-      <p className="text-center">{task.description}</p>
+      <p className="text-center break-all">{task.description}</p>
 
 
 </div>
