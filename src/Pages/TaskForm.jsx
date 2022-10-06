@@ -24,7 +24,7 @@ function TaskForm() {
   }, []);
 
   return (
-    <div className="bg-white border-[1px] border-gray-200 shadow-md rounded-md max-w-md mx-auto  p-10  ">
+    <div className="bg-white border-[1px] border-gray-200 shadow-md rounded-md  max-w-xs sm:max-w-sm md:max-w-md  mx-auto  p-10  ">
       <h1 className="text-center tracking-wide font-semibold text-xl">{params.id ? "Edit Tasks" : "New Tasks"}</h1>
 
       <Formik

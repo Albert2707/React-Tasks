@@ -7,7 +7,7 @@ function Navbar() {
 setShow(show === "hidden"?"md:hidden":"hidden");
   }
   return (
-    <nav className="sticky top-0 z-10 bg-white shadow-sm border-b-[1px] border-gray-300 flex justify-between px-12 py-5">
+    <nav className="sticky top-0 z-10 bg-white shadow-sm border-b-[1px] border-gray-300 flex  justify-between px-12 py-5">
 
 <div className="flex items-center space-x-1">
 <img src="https://i.ibb.co/10Q0r61/react-logo-24.png" alt="" />
