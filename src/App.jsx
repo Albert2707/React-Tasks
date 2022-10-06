@@ -13,7 +13,7 @@ function App() {
 <TaskContextProvider>
 
       <Routes>
-        <Route path="/" element={<TaskPage />} />
+        <Route index element={<TaskPage />} />
         <Route path="/new" element={<TaskForm />} />
         <Route path="/edit/:id" element={<TaskForm />} />
         <Route path="*" element={<Not404 />} />

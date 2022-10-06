@@ -11,6 +11,7 @@ node_modules
 market.html
 pricing.html
 dist-ssr
+deploy.sh
 *.local
 
 # Editor directories and files
