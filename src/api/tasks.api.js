@@ -13,7 +13,7 @@ export const deleteTasksRequest = async (id) =>
    await axios.get(`https://albert-react.herokuapp.com/task/${id}`);
 
    export const updateTaskRequest = async (id, newFields) => 
-   await axios.put(`http://localhost:4000/task/${id}`, newFields);
+   await axios.put(`https://albert-react.herokuapp.com/task/${id}`, newFields);
 
    export const toggleTaskDoneRequest = async (id, done) => 
    await axios.put(`https://albert-react.herokuapp.com/task/${id}`, {done});
