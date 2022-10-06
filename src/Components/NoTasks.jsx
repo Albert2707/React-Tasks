@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function NoTasks() {
   return (
-    <div className="container mx-auto m-10 border-[1px] border-gray-100 bg-white shadow-md transition hover:-translate-y-1">
+    <div className="container mx-auto  border-[1px] border-gray-100 bg-white shadow-md transition md:hover:-translate-y-1">
     <div className="flex w-full items-center  space-x-2 md:space-x-1 bg-gray-50 p-4 border-b-[1px] border-gray-200 ">
       <div className="h-4 w-4 rounded-full bg-red-500"></div>
       <div className="h-4 w-4 rounded-full bg-amber-500"></div>

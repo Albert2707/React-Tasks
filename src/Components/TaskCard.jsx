@@ -10,8 +10,8 @@ function TaskCard({ task }) {
   return (
     <div className="">
 
-    <div className="bg-[#fff] border-[1px] border-[#dbdce0] hover:-translate-y-1 transition duration-500 rounded-lg p-10 relative  flex flex-col w-full h-full shadow-sm hover:shadow-xl">
-   <div className="flex justify-center items-center gap-2">      <button className="group flex self-center bg-slate-100 px-3 py-2 rounded-xl text-black  border-[1px] border-indigo-400 tracking-wider hover:bg-gray-400 hover:text-white    transition duration-500 "
+    <div className="bg-[#fff] border-[1px] border-[#dbdce0] md:hover:-translate-y-1 transition duration-500 rounded-lg p-10 relative  flex flex-col w-full h-full shadow-sm md:hover:shadow-xl">
+   <div className="flex justify-center items-center gap-2">      <button className="group flex self-center bg-slate-100 px-3 py-2 rounded-xl text-black  border-[1px] border-indigo-400 tracking-wider md:hover:bg-gray-400 md:hover:text-white    transition duration-500 "
         onClick={() => {
           handleDone(task.done);
         }}
