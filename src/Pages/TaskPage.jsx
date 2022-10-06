@@ -9,7 +9,7 @@ function TaskPage() {
   }, []);
   function renderMain() {
   
-    if(tasks.length === 0) return   <div className=" p-10 md:p-8"><NoTasks/></div> 
+    if(tasks.length === 0) return   <div className=" p-3 sm:p-5 md:p-8"><NoTasks/></div> 
     try {
         return tasks.map((task) => <TaskCard task={task} key={task.id} />);
 
