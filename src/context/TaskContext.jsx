@@ -42,7 +42,6 @@ export const TaskContextProvider = ({ children }) => {
       const res = await createTaskRequest(task);
       //opcional
       setTasks(res.data);
-      //console.log(res);
     } catch (err) {
       console.error(err);
     }
@@ -60,7 +59,6 @@ export const TaskContextProvider = ({ children }) => {
   const updateTask = async (id, newFields) => {
     try {
       const res = await updateTaskRequest(id, newFields);
-      //console.log(res.data);
       //return res.data
     } catch (error) {
       console.error(error);
@@ -75,7 +73,6 @@ export const TaskContextProvider = ({ children }) => {
 
      tasks.map(task => task.id === id? task.done = task.done === 0?1:0: task.done)
      setTasks([...tasks])
-     console.log(tasks)
     } catch (error) {
       console.error(error);
     }
